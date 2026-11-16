@@ -51,10 +51,3 @@
 - 🔬 **[Medical Vision & Deep Learning Suite](https://github.com/SazidAhmedTonmoy/Projects)**: High-accuracy diagnostic models including Tooth Decay Detection (YOLOv6, 99.25% mAP) and Ocular Disease Recognition (ResNet50, 99.45% accuracy).
 
 ---
-
-### 📊 GitHub Analytics
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SazidAhmedTonmoy&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SazidAhmedTonmoy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-</div>
