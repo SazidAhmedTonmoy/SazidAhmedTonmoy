@@ -1,10 +1,12 @@
-<!-- Upload this file and the assets/ folder to SazidAhmedTonmoy/SazidAhmedTonmoy. -->
+<!-- Single-file profile README. Upload only this file to SazidAhmedTonmoy/SazidAhmedTonmoy. -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="Md Sazid Ahmed Tonmoy — Software Engineer. Edge AI, embedded systems and Python automation." src="assets/header-light.svg" width="100%">
-</picture>
+<p align="center"><samp>EDGE INTELLIGENCE &nbsp; / &nbsp; EMBEDDED SYSTEMS &nbsp; / &nbsp; AUTOMATION</samp></p>
+
+<h1 align="center">Md Sazid Ahmed Tonmoy</h1>
+
+<p align="center"><strong>Software Engineer · IoT &amp; Edge AI</strong></p>
+
+<p align="center">Connecting physical devices with intelligent software.</p>
 
 <p align="center">
   <a href="https://sazidahmedtonmoy.github.io/"><strong>Portfolio ↗</strong></a>
@@ -15,6 +17,8 @@
   &nbsp; · &nbsp;
   <a href="https://github.com/SazidAhmedTonmoy?tab=repositories">Repositories</a>
 </p>
+
+<p align="center"><sub>ATPL DHAKA · AMPEC TECHNOLOGIES &nbsp; / &nbsp; DHAKA, BANGLADESH</sub></p>
 
 <br>
 
