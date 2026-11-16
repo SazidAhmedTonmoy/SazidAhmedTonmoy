@@ -1,53 +1,64 @@
-<!-- Single-file profile README. Upload only this file to SazidAhmedTonmoy/SazidAhmedTonmoy. -->
-
-<p align="center"><samp>EDGE INTELLIGENCE &nbsp; / &nbsp; EMBEDDED SYSTEMS &nbsp; / &nbsp; AUTOMATION</samp></p>
-
-<h1 align="center">Md Sazid Ahmed Tonmoy</h1>
-
-<p align="center"><strong>Software Engineer · IoT &amp; Edge AI</strong></p>
-
-<p align="center">Connecting physical devices with intelligent software.</p>
+<!--
+Upload only this README.md to SazidAhmedTonmoy/SazidAhmedTonmoy.
+Visuals load from public image URLs; no assets folder, API keys, or workflows are required.
+Suggested GitHub bio (129 characters):
+Software Engineer at ATPL Dhaka (Ampec). Building Edge AI, IoT and Python automation systems with NVIDIA Jetson and Raspberry Pi.
+-->
 
 <p align="center">
-  <a href="https://sazidahmedtonmoy.github.io/"><strong>Portfolio ↗</strong></a>
-  &nbsp; · &nbsp;
-  <a href="https://www.linkedin.com/in/sazidahmedtonmoy/">LinkedIn</a>
-  &nbsp; · &nbsp;
-  <a href="mailto:sanzidtonmoy@gmail.com">Email</a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/SazidAhmedTonmoy?tab=repositories">Repositories</a>
+  <img src="https://capsule-render.vercel.app/api?type=rounded&amp;color=0:0F172A,60:155E75,100:0E7490&amp;height=190&amp;section=header&amp;text=Md%20Sazid%20Ahmed%20Tonmoy&amp;fontSize=36&amp;fontColor=FFFFFF&amp;fontAlignY=40&amp;desc=IoT%20and%20Edge%20AI%20%7C%20Embedded%20Systems%20%7C%20Python%20Automation&amp;descSize=16&amp;descAlignY=66" alt="Md Sazid Ahmed Tonmoy — IoT and Edge AI, Embedded Systems, Python Automation" width="100%">
 </p>
 
-<p align="center"><sub>ATPL DHAKA · AMPEC TECHNOLOGIES &nbsp; / &nbsp; DHAKA, BANGLADESH</sub></p>
+<p align="center">
+  <a href="https://sazidahmedtonmoy.github.io/"><img src="https://img.shields.io/badge/Portfolio-0E7490?style=for-the-badge" alt="Visit portfolio"></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/sazidahmedtonmoy/"><img src="https://img.shields.io/badge/LinkedIn-1E293B?style=for-the-badge" alt="Connect on LinkedIn"></a>
+  &nbsp;
+  <a href="mailto:sanzidtonmoy@gmail.com"><img src="https://img.shields.io/badge/Email-1E293B?style=for-the-badge&amp;logo=gmail&amp;logoColor=22D3EE" alt="Send an email"></a>
+  &nbsp;
+  <a href="https://github.com/SazidAhmedTonmoy?tab=repositories"><img src="https://img.shields.io/badge/Repositories-1E293B?style=for-the-badge&amp;logo=github&amp;logoColor=22D3EE" alt="Browse repositories"></a>
+</p>
 
-<br>
+<p align="center">
+  <strong>Software Engineer at ATPL Dhaka · Ampec Technologies</strong><br>
+  <sub>Dhaka, Bangladesh &nbsp; · &nbsp; B.Sc. in CSE, Cum Laude</sub>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,c,linux,raspberrypi,pytorch,opencv&amp;theme=light">
+    <img src="https://skillicons.dev/icons?i=py,c,linux,raspberrypi,pytorch,opencv&amp;theme=dark" alt="Python, C, Linux, Raspberry Pi, PyTorch and OpenCV" width="300">
+  </picture>
+</p>
 
 ### From sensors to software.
 
-I build **edge intelligence, embedded systems, and Python automation** — connecting physical devices with the software people use to monitor, control, and understand them.
+I build **edge intelligence, embedded systems, and Python automation** — connecting physical devices with the software people use to monitor, control, and understand them. My work spans **NVIDIA Jetson and Raspberry Pi**, computer vision, operator dashboards, and engineering workflow tools.
 
-Currently a **Software Engineer at ATPL Dhaka**, the offshore office of **Ampec Technologies**. My work spans NVIDIA Jetson and Raspberry Pi controllers, computer vision, operator dashboards, and engineering workflow tools.
-
-**Dhaka, Bangladesh** &nbsp; / &nbsp; **3+ years in engineering** &nbsp; / &nbsp; **B.Sc. in CSE · Cum Laude**
+<table>
+  <tr>
+    <td width="33%" align="center"><h3>3+ years</h3><sub>ENGINEERING EXPERIENCE</sub></td>
+    <td width="33%" align="center"><h3>3,623</h3><sub>CONEST CATALOGUE ITEMS</sub></td>
+    <td width="33%" align="center"><h3>24,045</h3><sub>CONEST COMPONENT RECORDS</sub></td>
+  </tr>
+</table>
 
 [Selected work](#selected-work) &nbsp; · &nbsp; [Experience](#experience) &nbsp; · &nbsp; [Toolkit](#toolkit) &nbsp; · &nbsp; [Research](#research--education)
-
-<br>
 
 ## Selected work
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <p><sub>01 / ENGINEERING AUTOMATION</sub></p>
-      <h3>TEC ConEst</h3>
+      <p><img src="https://img.shields.io/badge/01-AUTOMATION-0E7490?style=flat-square&amp;labelColor=1E293B" alt="01 — Engineering automation"></p>
+      <h3>⚡ TEC ConEst</h3>
       <p>Electrical estimation platform combining a shared catalogue, component records, automated Excel outputs, and ML-assisted symbol takeoff.</p>
-      <p><strong>3,623</strong> catalogue items<br><strong>24,045</strong> component records</p>
+      <p><strong>Catalogue → estimation → Excel</strong></p>
       <p><sub>Python · SQLite · openpyxl · YOLO</sub></p>
     </td>
     <td width="50%" valign="top">
-      <p><sub>02 / EDGE AI &amp; COMPUTER VISION</sub></p>
-      <h3>Overheight Vehicle Detection</h3>
+      <p><img src="https://img.shields.io/badge/02-EDGE_AI-0E7490?style=flat-square&amp;labelColor=1E293B" alt="02 — Edge AI and computer vision"></p>
+      <h3>🚦 Overheight Vehicle Detection</h3>
       <p>NVIDIA Jetson controller integrating LiDAR motion tracking and YOLO segmentation for real-time roadside LED warnings and cloud telemetry.</p>
       <p><strong>Sensor integration → detection → warning</strong></p>
       <p><sub>NVIDIA Jetson · LiDAR · YOLOv8 · Python</sub></p>
@@ -55,14 +66,14 @@ Currently a **Software Engineer at ATPL Dhaka**, the offshore office of **Ampec 
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <p><sub>03 / CONNECTED ROADSIDE SYSTEMS</sub></p>
-      <h3>Radar &amp; LoRaWAN Warning System</h3>
+      <p><img src="https://img.shields.io/badge/03-CONNECTED_IOT-0E7490?style=flat-square&amp;labelColor=1E293B" alt="03 — Connected roadside systems"></p>
+      <h3>📡 Radar &amp; LoRaWAN Warning System</h3>
       <p>Raspberry Pi 4 monitoring platform integrating AGD332 radar, LoRaWAN telemetry, a Flask dashboard with role-based access, and Gemini-assisted reporting.</p>
       <p><sub>Raspberry Pi · LoRaWAN · Flask · Gemini API</sub></p>
     </td>
     <td width="50%" valign="top">
-      <p><sub>04 / EMBEDDED NETWORKING</sub></p>
-      <h3>TFTP Server Implementation</h3>
+      <p><img src="https://img.shields.io/badge/04-EMBEDDED_C-0E7490?style=flat-square&amp;labelColor=1E293B" alt="04 — Embedded networking"></p>
+      <h3>🔌 TFTP Server Implementation</h3>
       <p>Embedded C server for the BDCOM S2510-P switch on VxWorks RTOS, implementing TFTP and option negotiation, including blocksize extensions.</p>
       <p><a href="https://github.com/SazidAhmedTonmoy/Professional-Project">View project ↗</a></p>
       <p><sub>C · VxWorks · RFC 1350 / 2347 / 2348</sub></p>
@@ -96,6 +107,13 @@ Currently a **Software Engineer at ATPL Dhaka**, the offshore office of **Ampec 
 
 ## Toolkit
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=fastapi,flask,tensorflow,docker,git,aws&amp;theme=light">
+    <img src="https://skillicons.dev/icons?i=fastapi,flask,tensorflow,docker,git,aws&amp;theme=dark" alt="FastAPI, Flask, TensorFlow, Docker, Git and AWS" width="300">
+  </picture>
+</p>
+
 | Area | Technologies |
 | :--- | :--- |
 | **Languages** | Python · C · C++ · JavaScript · Bash |
@@ -113,7 +131,7 @@ Currently a **Software Engineer at ATPL Dhaka**, the offshore office of **Ampec 
 Graduated **Cum Laude**.
 
 <details>
-<summary><strong>Explore undergraduate research & projects</strong></summary>
+<summary><strong>🎓 Explore undergraduate research & projects</strong></summary>
 
 <br>
 
