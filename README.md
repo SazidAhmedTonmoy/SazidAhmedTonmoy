@@ -1,55 +1,70 @@
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rounded&amp;color=0:0B1728,65:103743,100:155E75&amp;height=168&amp;section=header&amp;text=Md%20Sazid%20Ahmed%20Tonmoy&amp;fontColor=F0FAFF&amp;fontSize=36&amp;fontAlignY=44&amp;desc=Software%20Engineer%20%C2%B7%20ATPL%20Dhaka%20%C2%B7%20Bangladesh&amp;descSize=15&amp;descAlignY=68" alt="Md Sazid Ahmed Tonmoy · Software Engineer at ATPL Dhaka, Bangladesh">
-</p>
+<img align="right" width="104" height="104" src="https://github.com/SazidAhmedTonmoy.png?size=208" alt="Sazid’s GitHub profile picture">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=2400&amp;pause=1600&amp;color=389DB4&amp;center=true&amp;vCenter=true&amp;width=380&amp;height=36&amp;lines=Python+backend+development;Edge+AI+%26+IoT;Embedded+systems;Workflow+automation" alt="Skills include Python backend development, Edge AI and IoT, embedded systems, and workflow automation">
-</p>
+# Md Sazid Ahmed Tonmoy
 
-<p align="center">
-  <a href="https://sazidahmedtonmoy.github.io/"><strong>Portfolio ↗</strong></a> &nbsp; · &nbsp;
-  <a href="https://www.linkedin.com/in/sazidahmedtonmoy/">LinkedIn</a> &nbsp; · &nbsp;
-  <a href="mailto:sanzidtonmoy@gmail.com">Email</a> &nbsp; · &nbsp;
-  <a href="https://github.com/SazidAhmedTonmoy?tab=repositories">Repositories</a>
-</p>
+**Software Engineer** · ATPL Dhaka, Ampec Technologies  
+Dhaka, Bangladesh
 
-I build full-stack applications at **ATPL Dhaka**, the offshore office of Ampec Technologies. Most of my work is on the Python backend. For electrical estimators, that means turning catalogue components into costed project lines. For roadside operators, it means connecting sensor events to warnings they can see and equipment they can diagnose.
+[Portfolio ↗](https://sazidahmedtonmoy.github.io/)　·　[LinkedIn](https://www.linkedin.com/in/sazidahmedtonmoy/)　·　[Email](mailto:sanzidtonmoy@gmail.com)
 
-## Featured work
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&amp;weight=500&amp;size=18&amp;duration=2200&amp;pause=2300&amp;color=439B9E&amp;width=345&amp;height=32&amp;lines=Python+backend+development;Edge+AI+%26+IoT;Embedded+systems;Workflow+automation" width="345" alt="Python backend development · Edge AI and IoT · Embedded systems · Workflow automation">
+
+Most days I work on Python backends. Sometimes the output is an electrical estimate a team can send to a builder. Sometimes it’s a roadside sign showing the silhouette of the vehicle that just triggered it.
+
+## Selected work
 
 ### TEC EstiDoc
 
-Electrical estimators use a shared catalogue to price materials and labour. Tender teams follow the same job through builder-specific submissions, revisions and chase-ups. I build the Python workflows that connect estimating, reporting and follow-up.
+Electrical estimators build a quote from catalogue items, material costs and labour hours. I work on the Python and SQLite workflows behind that process, from the first estimate line to the tender team’s next follow-up.
 
-| Active catalogue items | Estimate projects | Builder submissions |
-| ---: | ---: | ---: |
-| **4,029** | **41** | **408** |
+> **4,029** active catalogue items　 ·　 **41** estimate projects　 ·　 **408** builder submissions  
+> <sub>EstiDoc 3.8.0 · 18 November 2026 snapshot</sub>
 
-<sub>TEC EstiDoc 3.8.0 · SQLite backup snapshot, 18 November 2026</sub>
+[Explore the database diagram ↗](https://sazidahmedtonmoy.github.io/#projects)
 
-[Explore the database diagram on my portfolio ↗](https://sazidahmedtonmoy.github.io/#projects)
+### Over-height vehicle detection
 
-### Roadside and edge systems
+A LiDAR scan gives us a height. A camera frame tells us which vehicle it belongs to. The controller matches the two, uses YOLO to isolate the vehicle and sends its silhouette to a roadside LED display.
 
-| System | What happens in the field |
-| --- | --- |
-| **Over-Height Detection & LED Warning** | LiDAR estimates a vehicle’s height. The controller matches the detection to a camera frame, segments the vehicle with YOLO and sends a warning graphic to a roadside LED sign. |
-| **Advanced Warning System** | One Raspberry Pi handles radar, radio, wired and off-road modes. Operators can test the warning lights and inspect battery trends and fault logs locally. |
-| **School Zone Alert Sign System** | A controller receives timetables over TCP/IP, validates them and switches the lanterns on schedule. Operators can inspect LED current and battery voltage from a local dashboard. |
-| **Crowd Management System** | Directional camera counts update occupancy. A digital output activates at a configured threshold and clears when occupancy falls. |
-| **Vehicle Counting System** | Camera events are grouped by lane and vehicle class. Rolling counts feed the dashboard and trigger output pulses at configured intervals. |
+```mermaid
+flowchart LR
+    A[LiDAR height event] --> C[Match by time]
+    B[Camera snapshot] --> C
+    C --> D[Segment vehicle]
+    D --> E[Roadside LED]
+    classDef accent fill:#12343b,stroke:#498b90,color:#e4f4f3
+    class C,E accent
+```
+
+<p><img src="https://skillicons.dev/icons?i=py,opencv,pytorch,linux&amp;theme=dark" width="140" alt="Python, OpenCV, PyTorch and Linux"></p>
+
+<details>
+<summary><strong>Four more field systems</strong> · roadside control and traffic monitoring</summary>
+
+- **School Zone Alert Sign System** — a Raspberry Pi validates timetables, switches warning lanterns and reports battery voltage and LED current.
+- **Advanced Warning System** — a single controller handles radar, radio, wired and off-road modes, with local flash tests and fault logs.
+- **Crowd Management System** — directional camera counts track occupancy and activate a digital output when the configured threshold is reached.
+- **Vehicle Counting System** — camera events are grouped by lane and vehicle class, producing rolling counts and configurable output pulses.
+
+</details>
 
 ## Experience
 
 **Software Engineer · ATPL Dhaka**  
 *February 2024 – present*  
-I develop Python services, REST APIs and operator dashboards, automate Excel and PDF reporting, and integrate cameras, radar and LiDAR with Raspberry Pi and NVIDIA Jetson controllers.
+Python services and operator dashboards for estimating teams and roadside equipment. My work also covers Excel and PDF automation, sensor integration and field diagnostics.
 
 **R&D Engineer · Shanghai BDCOM InfoTech**  
 *March – December 2023*  
-I implemented a TFTP server in embedded C for the BDCOM S2510-P switch on VxWorks, including option negotiation and block-size extensions. My work included protocol verification, system testing and debugging. [View the networking project ↗](https://github.com/SazidAhmedTonmoy/Professional-Project)
+I wrote a TFTP server in embedded C for the S2510-P switch on VxWorks, including option negotiation and block-size extensions. [View the networking project ↗](https://github.com/SazidAhmedTonmoy/Professional-Project)
 
-## Technical toolkit
+## Toolkit
+
+**Python · FastAPI · Flask · SQLite · MySQL**  
+My main tools for building APIs, modelling project data and connecting web interfaces to field devices.
+
+<details>
+<summary>Explore the full toolkit</summary>
 
 | Area | Tools and interfaces |
 | --- | --- |
@@ -60,9 +75,11 @@ I implemented a TFTP server in embedded C for the BDCOM S2510-P switch on VxWork
 | **Data & automation** | pandas, NumPy, openpyxl, Bash, Gemini API |
 | **Web interfaces & delivery** | JavaScript, HTML, CSS, Git, Docker, Postman |
 
-## North South University
+</details>
 
-**Bachelor of Science in Computer Engineering** · January 2019 – November 2022  
+## Education
+
+**North South University** · BS in Computer Engineering · January 2019 – November 2022  
 **Cum Laude · CGPA 3.52**  
 I specialized in artificial intelligence, minored in computer networks and participated in problem-solving and Kaggle competitions.
 
