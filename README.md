@@ -1,4 +1,4 @@
-<img src="./assets/field-scan.gif" width="100%" alt="Md Sazid Ahmed Tonmoy, Software Engineer at ATPL Dhaka. An animated LiDAR sweep traces a roadside point cloud.">
+<img src="./schematic.gif" width="100%" alt="Md Sazid Ahmed Tonmoy, Software Engineer at ATPL Dhaka. Python backend engineering with an animated electrical distribution schematic.">
 
 [**Portfolio ↗**](https://sazidahmedtonmoy.github.io/)　 /　 [LinkedIn](https://www.linkedin.com/in/sazidahmedtonmoy/)　 /　 [Email](mailto:sanzidtonmoy@gmail.com)
 
@@ -8,8 +8,8 @@ I build Python backends for electrical estimating teams and software for roadsid
 
 <table>
 <tr>
-<td width="50%" valign="top"><img src="./assets/estidoc.png" width="100%" alt="TEC EstiDoc electrical estimating platform"><p>Electrical estimators price materials and labour from a shared catalogue. Tender teams track each builder’s submission and follow-up.</p><p><strong>4,029</strong> active catalogue items · <strong>41</strong> estimates · <strong>408</strong> builder submissions</p><sub>Release 3.8.0 · 18 November 2026 snapshot</sub><p><a href="https://sazidahmedtonmoy.github.io/#projects">Explore the database diagram ↗</a></p></td>
-<td width="50%" valign="top"><img src="./assets/overheight.png" width="100%" alt="Over-height vehicle detection, illustrated with a truck under a sensor beam"><p>LiDAR measures vehicle height. The controller pairs each event with a camera frame, isolates the vehicle with YOLO and displays its silhouette on a roadside LED sign.</p><p><sub>NVIDIA Jetson · LiDAR · YOLO · Colorlight LED</sub></p></td>
+<td width="50%" valign="top"><img src="./estidoc.png" width="100%" alt="TEC EstiDoc electrical estimating platform"><p>Electrical estimators price materials and labour from a shared catalogue. Tender teams track each builder’s submission and follow-up.</p><p><strong>4,029</strong> active catalogue items · <strong>41</strong> estimates · <strong>408</strong> builder submissions</p><sub>Release 3.8.0 · 18 November 2026 snapshot</sub><p><a href="https://sazidahmedtonmoy.github.io/#projects">Explore the database diagram ↗</a></p></td>
+<td width="50%" valign="top"><img src="./overheight.png" width="100%" alt="Over-height vehicle detection, illustrated with a truck under a sensor beam"><p>LiDAR measures vehicle height. The controller pairs each event with a camera frame, isolates the vehicle with YOLO and displays its silhouette on a roadside LED sign.</p><p><sub>NVIDIA Jetson · LiDAR · YOLO · Colorlight LED</sub></p></td>
 </tr>
 </table>
 
