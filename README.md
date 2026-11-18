@@ -1,42 +1,17 @@
-<img align="right" width="104" height="104" src="https://github.com/SazidAhmedTonmoy.png?size=208" alt="Sazid’s GitHub profile picture">
+<img src="./assets/field-scan.gif" width="100%" alt="Md Sazid Ahmed Tonmoy, Software Engineer at ATPL Dhaka. An animated LiDAR sweep traces a roadside point cloud.">
 
-# Md Sazid Ahmed Tonmoy
+[**Portfolio ↗**](https://sazidahmedtonmoy.github.io/)　 /　 [LinkedIn](https://www.linkedin.com/in/sazidahmedtonmoy/)　 /　 [Email](mailto:sanzidtonmoy@gmail.com)
 
-**Software Engineer** · ATPL Dhaka, Ampec Technologies  
-Dhaka, Bangladesh
-
-[Portfolio ↗](https://sazidahmedtonmoy.github.io/)　·　[LinkedIn](https://www.linkedin.com/in/sazidahmedtonmoy/)　·　[Email](mailto:sanzidtonmoy@gmail.com)
-
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&amp;weight=500&amp;size=18&amp;duration=2200&amp;pause=2300&amp;color=439B9E&amp;width=345&amp;height=32&amp;lines=Python+backend+development;Edge+AI+%26+IoT;Embedded+systems;Workflow+automation" width="345" alt="Python backend development · Edge AI and IoT · Embedded systems · Workflow automation">
-
-Most days I work on Python backends. Sometimes the output is an electrical estimate a team can send to a builder. Sometimes it’s a roadside sign showing the silhouette of the vehicle that just triggered it.
+I build Python backends for electrical estimating teams and software for roadside controllers. My work ranges from pricing a bill of materials to matching a LiDAR detection with the camera frame that explains it.
 
 ## Selected work
 
-### TEC EstiDoc
-
-Electrical estimators build a quote from catalogue items, material costs and labour hours. I work on the Python and SQLite workflows behind that process, from the first estimate line to the tender team’s next follow-up.
-
-> **4,029** active catalogue items　 ·　 **41** estimate projects　 ·　 **408** builder submissions  
-> <sub>EstiDoc 3.8.0 · 18 November 2026 snapshot</sub>
-
-[Explore the database diagram ↗](https://sazidahmedtonmoy.github.io/#projects)
-
-### Over-height vehicle detection
-
-A LiDAR scan gives us a height. A camera frame tells us which vehicle it belongs to. The controller matches the two, uses YOLO to isolate the vehicle and sends its silhouette to a roadside LED display.
-
-```mermaid
-flowchart LR
-    A[LiDAR height event] --> C[Match by time]
-    B[Camera snapshot] --> C
-    C --> D[Segment vehicle]
-    D --> E[Roadside LED]
-    classDef accent fill:#12343b,stroke:#498b90,color:#e4f4f3
-    class C,E accent
-```
-
-<p><img src="https://skillicons.dev/icons?i=py,opencv,pytorch,linux&amp;theme=dark" width="140" alt="Python, OpenCV, PyTorch and Linux"></p>
+<table>
+<tr>
+<td width="50%" valign="top"><img src="./assets/estidoc.png" width="100%" alt="TEC EstiDoc electrical estimating platform"><p>Electrical estimators price materials and labour from a shared catalogue. Tender teams track each builder’s submission and follow-up.</p><p><strong>4,029</strong> active catalogue items · <strong>41</strong> estimates · <strong>408</strong> builder submissions</p><sub>Release 3.8.0 · 18 November 2026 snapshot</sub><p><a href="https://sazidahmedtonmoy.github.io/#projects">Explore the database diagram ↗</a></p></td>
+<td width="50%" valign="top"><img src="./assets/overheight.png" width="100%" alt="Over-height vehicle detection, illustrated with a truck under a sensor beam"><p>LiDAR measures vehicle height. The controller pairs each event with a camera frame, isolates the vehicle with YOLO and displays its silhouette on a roadside LED sign.</p><p><sub>NVIDIA Jetson · LiDAR · YOLO · Colorlight LED</sub></p></td>
+</tr>
+</table>
 
 <details>
 <summary><strong>Four more field systems</strong> · roadside control and traffic monitoring</summary>
