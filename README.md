@@ -1,162 +1,129 @@
-<!--
-Upload only this README.md to SazidAhmedTonmoy/SazidAhmedTonmoy.
-Visuals load from public image URLs; no assets folder, API keys, or workflows are required.
-Suggested GitHub bio (129 characters):
-Software Engineer at ATPL Dhaka (Ampec). Building Edge AI, IoT and Python automation systems with NVIDIA Jetson and Raspberry Pi.
--->
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&amp;color=0:0F172A,60:155E75,100:0E7490&amp;height=190&amp;section=header&amp;text=Md%20Sazid%20Ahmed%20Tonmoy&amp;fontSize=36&amp;fontColor=FFFFFF&amp;fontAlignY=40&amp;desc=IoT%20and%20Edge%20AI%20%7C%20Embedded%20Systems%20%7C%20Python%20Automation&amp;descSize=16&amp;descAlignY=66" alt="Md Sazid Ahmed Tonmoy — IoT and Edge AI, Embedded Systems, Python Automation" width="100%">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rounded&amp;color=0:0B1728,65:103743,100:155E75&amp;height=168&amp;section=header&amp;text=Md%20Sazid%20Ahmed%20Tonmoy&amp;fontColor=F0FAFF&amp;fontSize=36&amp;fontAlignY=44&amp;desc=Software%20Engineer%20%C2%B7%20ATPL%20Dhaka%20%C2%B7%20Bangladesh&amp;descSize=15&amp;descAlignY=68" alt="Md Sazid Ahmed Tonmoy · Software Engineer at ATPL Dhaka, Bangladesh">
 </p>
 
 <p align="center">
-  <a href="https://sazidahmedtonmoy.github.io/"><img src="https://img.shields.io/badge/Portfolio-0E7490?style=for-the-badge" alt="Visit portfolio"></a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/sazidahmedtonmoy/"><img src="https://img.shields.io/badge/LinkedIn-1E293B?style=for-the-badge" alt="Connect on LinkedIn"></a>
-  &nbsp;
-  <a href="mailto:sanzidtonmoy@gmail.com"><img src="https://img.shields.io/badge/Email-1E293B?style=for-the-badge&amp;logo=gmail&amp;logoColor=22D3EE" alt="Send an email"></a>
-  &nbsp;
-  <a href="https://github.com/SazidAhmedTonmoy?tab=repositories"><img src="https://img.shields.io/badge/Repositories-1E293B?style=for-the-badge&amp;logo=github&amp;logoColor=22D3EE" alt="Browse repositories"></a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=2400&amp;pause=1600&amp;color=389DB4&amp;center=true&amp;vCenter=true&amp;width=380&amp;height=36&amp;lines=Python+backend+development;Edge+AI+%26+IoT;Embedded+systems;Workflow+automation" alt="Skills include Python backend development, Edge AI and IoT, embedded systems, and workflow automation">
 </p>
 
 <p align="center">
-  <strong>Software Engineer at ATPL Dhaka · Ampec Technologies</strong><br>
-  <sub>Dhaka, Bangladesh &nbsp; · &nbsp; B.Sc. in CSE, Cum Laude</sub>
+  <a href="https://sazidahmedtonmoy.github.io/"><strong>Portfolio ↗</strong></a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/sazidahmedtonmoy/">LinkedIn</a> &nbsp; · &nbsp;
+  <a href="mailto:sanzidtonmoy@gmail.com">Email</a> &nbsp; · &nbsp;
+  <a href="https://github.com/SazidAhmedTonmoy?tab=repositories">Repositories</a>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,c,linux,raspberrypi,pytorch,opencv&amp;theme=light">
-    <img src="https://skillicons.dev/icons?i=py,c,linux,raspberrypi,pytorch,opencv&amp;theme=dark" alt="Python, C, Linux, Raspberry Pi, PyTorch and OpenCV" width="300">
-  </picture>
-</p>
+I build full-stack applications at ATPL Dhaka, the offshore office of Ampec Technologies. Most of my work is on the Python backend. For electrical estimators, that means turning catalogue components into costed project lines. For roadside operators, it means connecting sensor events to warnings they can see and equipment they can diagnose.
 
-### From sensors to software.
+Featured work
 
-I build **edge intelligence, embedded systems, and Python automation** — connecting physical devices with the software people use to monitor, control, and understand them. My work spans **NVIDIA Jetson and Raspberry Pi**, computer vision, operator dashboards, and engineering workflow tools.
+TEC EstiDoc
 
-<table>
-  <tr>
-    <td width="33%" align="center"><h3>3+ years</h3><sub>ENGINEERING EXPERIENCE</sub></td>
-    <td width="33%" align="center"><h3>3,623</h3><sub>CONEST CATALOGUE ITEMS</sub></td>
-    <td width="33%" align="center"><h3>24,045</h3><sub>CONEST COMPONENT RECORDS</sub></td>
-  </tr>
-</table>
+Electrical estimators use a shared catalogue to price materials and labour. Tender teams follow the same job through builder-specific submissions, revisions and chase-ups. I build the Python workflows that connect estimating, reporting and follow-up.
 
-[Selected work](#selected-work) &nbsp; · &nbsp; [Experience](#experience) &nbsp; · &nbsp; [Toolkit](#toolkit) &nbsp; · &nbsp; [Research](#research--education)
+Active catalogue items
 
-## Selected work
+Estimate projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <p><img src="https://img.shields.io/badge/01-AUTOMATION-0E7490?style=flat-square&amp;labelColor=1E293B" alt="01 — Engineering automation"></p>
-      <h3>⚡ TEC ConEst</h3>
-      <p>Electrical estimation platform combining a shared catalogue, component records, automated Excel outputs, and ML-assisted symbol takeoff.</p>
-      <p><strong>Catalogue → estimation → Excel</strong></p>
-      <p><sub>Python · SQLite · openpyxl · YOLO</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <p><img src="https://img.shields.io/badge/02-EDGE_AI-0E7490?style=flat-square&amp;labelColor=1E293B" alt="02 — Edge AI and computer vision"></p>
-      <h3>🚦 Overheight Vehicle Detection</h3>
-      <p>NVIDIA Jetson controller integrating LiDAR motion tracking and YOLO segmentation for real-time roadside LED warnings and cloud telemetry.</p>
-      <p><strong>Sensor integration → detection → warning</strong></p>
-      <p><sub>NVIDIA Jetson · LiDAR · YOLOv8 · Python</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <p><img src="https://img.shields.io/badge/03-CONNECTED_IOT-0E7490?style=flat-square&amp;labelColor=1E293B" alt="03 — Connected roadside systems"></p>
-      <h3>📡 Radar &amp; LoRaWAN Warning System</h3>
-      <p>Raspberry Pi 4 monitoring platform integrating AGD332 radar, LoRaWAN telemetry, a Flask dashboard with role-based access, and Gemini-assisted reporting.</p>
-      <p><sub>Raspberry Pi · LoRaWAN · Flask · Gemini API</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <p><img src="https://img.shields.io/badge/04-EMBEDDED_C-0E7490?style=flat-square&amp;labelColor=1E293B" alt="04 — Embedded networking"></p>
-      <h3>🔌 TFTP Server Implementation</h3>
-      <p>Embedded C server for the BDCOM S2510-P switch on VxWorks RTOS, implementing TFTP and option negotiation, including blocksize extensions.</p>
-      <p><a href="https://github.com/SazidAhmedTonmoy/Professional-Project">View project ↗</a></p>
-      <p><sub>C · VxWorks · RFC 1350 / 2347 / 2348</sub></p>
-    </td>
-  </tr>
-</table>
+Builder submissions
 
-**Also built — School Zone Alert Controller:** extended a Raspberry Pi controller against the **TSI-SP-084** communications specification, with a local web dashboard for operators.
+4,029
 
-<br>
+41
 
-## Experience
+408
 
-### Software Engineer · ATPL Dhaka
+<sub>TEC EstiDoc 3.8.0 · SQLite backup snapshot, 18 November 2026</sub>
 
-**Ampec Technologies, offshore office** &nbsp; / &nbsp; Feb 2024 – Present
+Explore the database diagram on my portfolio ↗
 
-- Build Python edge software on **NVIDIA Jetson and Raspberry Pi**, integrating LiDAR, radar, digital I/O, and cloud telemetry.
-- Develop **REST APIs, Flask/FastAPI operator panels, and field diagnostic tools** for deployment and monitoring.
-- Automate engineering workflows with **Excel/PDF pipelines, openpyxl, and LLM APIs**.
+Roadside and edge systems
 
-### R&D Engineer · Shanghai BDCOM InfoTech
+System
 
-**Embedded networking · Dhaka** &nbsp; / &nbsp; Mar 2023 – Dec 2023
+What happens in the field
 
-- Developed and optimized **embedded C** software for enterprise switches on **VxWorks RTOS and Linux**.
-- Implemented the **TFTP server and option extensions** for the BDCOM S2510-P.
-- Performed **protocol verification, system testing, and pre-deployment debugging**.
+Over-Height Detection & LED Warning
 
-<br>
+LiDAR estimates a vehicle’s height. The controller matches the detection to a camera frame, segments the vehicle with YOLO and sends a warning graphic to a roadside LED sign.
 
-## Toolkit
+Advanced Warning System
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=fastapi,flask,tensorflow,docker,git,aws&amp;theme=light">
-    <img src="https://skillicons.dev/icons?i=fastapi,flask,tensorflow,docker,git,aws&amp;theme=dark" alt="FastAPI, Flask, TensorFlow, Docker, Git and AWS" width="300">
-  </picture>
-</p>
+One Raspberry Pi handles radar, radio, wired and off-road modes. Operators can test the warning lights and inspect battery trends and fault logs locally.
 
-| Area | Technologies |
-| :--- | :--- |
-| **Languages** | Python · C · C++ · JavaScript · Bash |
-| **Edge & embedded** | NVIDIA Jetson · Raspberry Pi · Embedded Linux · VxWorks RTOS · LiDAR · Radar |
-| **Computer vision & ML** | PyTorch · TensorFlow · OpenCV · YOLOv6/v8 · scikit-learn |
-| **APIs & applications** | FastAPI · Flask · REST APIs · Streamlit · SQLite · MySQL |
-| **Connectivity & delivery** | MQTT · LoRaWAN · AWS IoT Core · Docker · Git |
-| **Data & automation** | openpyxl · Pandas · NumPy · Excel/PDF workflows · Gemini API |
+School Zone Alert Sign System
 
-<br>
+A controller receives timetables over TCP/IP, validates them and switches the lanterns on schedule. Operators can inspect LED current and battery voltage from a local dashboard.
 
-## Research & education
+Crowd Management System
 
-**B.Sc. in Computer Science & Engineering** · North South University  
-Graduated **Cum Laude**.
+Directional camera counts update occupancy. A digital output activates at a configured threshold and clears when occupancy falls.
+
+Vehicle Counting System
+
+Camera events are grouped by lane and vehicle class. Rolling counts feed the dashboard and trigger output pulses at configured intervals.
+
+Experience
+
+Software Engineer · ATPL Dhaka
+February 2024 – present
+I develop Python services, REST APIs and operator dashboards, automate Excel and PDF reporting, and integrate cameras, radar and LiDAR with Raspberry Pi and NVIDIA Jetson controllers.
+
+R&D Engineer · Shanghai BDCOM InfoTech
+March – December 2023
+I implemented a TFTP server in embedded C for the BDCOM S2510-P switch on VxWorks, including option negotiation and block-size extensions. My work included protocol verification, system testing and debugging. View the networking project ↗
+
+Technical toolkit
+
+Area
+
+Tools and interfaces
+
+Backend & databases
+
+Python, FastAPI, Flask, REST APIs, SQLite, MySQL
+
+Edge AI & computer vision
+
+OpenCV, YOLO, PyTorch, TensorFlow, scikit-learn
+
+Embedded systems
+
+C, C++, Embedded Linux, VxWorks, Raspberry Pi, NVIDIA Jetson, GPIO, UART
+
+IoT & connectivity
+
+TCP/IP, UDP, MQTT, LoRa, LoRaWAN, AWS IoT Core
+
+Data & automation
+
+pandas, NumPy, openpyxl, Bash, Gemini API
+
+Web interfaces & delivery
+
+JavaScript, HTML, CSS, Git, Docker, Postman
+
+North South University
+
+Bachelor of Science in Computer Engineering · January 2019 – November 2022
+Cum Laude · CGPA 3.52
+I specialized in artificial intelligence, minored in computer networks and participated in problem-solving and Kaggle competitions.
 
 <details>
-<summary><strong>🎓 Explore undergraduate research & projects</strong></summary>
+<summary><strong>Undergraduate research and software projects</strong></summary>
 
-<br>
+Tooth decay detection — used YOLOv6 and OpenCV to locate decay in dental images.
 
-### Computer vision & machine learning
+Ocular disease recognition — built a ResNet50 classifier with a Streamlit interface for cataracts, glaucoma and myopia.
 
-- **Tooth Decay Detection** — YOLOv6 and OpenCV for dental image detection; reported project result: **99.25% mAP**.
-- **Ocular Disease Recognition** — ResNet50 classification of cataracts, glaucoma, and myopia with a Streamlit interface; reported project result: **99.45% accuracy**.
-- **Pneumonia & COVID-19 Classification** — MobileNetV2 transfer learning on **5,000 chest X-ray images**; reported project result: **approximately 98% accuracy**.
-- **Heart Disease & Diabetes Predictor** — exploratory data analysis and supervised classifiers using scikit-learn, Pandas, and NumPy.
+Chest X-ray classification — applied MobileNetV2 transfer learning to a dataset of 5,000 images for pneumonia and COVID-19 classification.
 
-### Applications & utilities
+Heart disease and diabetes prediction — explored clinical datasets and compared supervised classifiers with scikit-learn.
 
-- **NSU Internship Management System** — PHP, MySQL, and JavaScript platform for student applications, evaluations, and advisor reporting.
-- **Formula_Pro & Vivid Letter** — Python and Jupyter utilities for engineering calculations, text manipulation, and document formatting.
+NSU Internship Management System — built application, evaluation and advisor-reporting workflows with PHP, MySQL and JavaScript.
 
-<sub>Research metrics describe individual project evaluations; datasets and evaluation settings differ.</sub>
+Formula_Pro and Vivid Letter — developed Python and Jupyter utilities for engineering calculations and document formatting.
+
+Browse my university projects ↗
 
 </details>
-
-<br>
-
----
-
-### Have a system to build?
-
-I’m interested in **Edge AI, embedded systems, computer vision, and Python automation** — especially where hardware and software meet.
-
-**[Let’s connect →](mailto:sanzidtonmoy@gmail.com)** &nbsp; · &nbsp; [Portfolio](https://sazidahmedtonmoy.github.io/) &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/sazidahmedtonmoy/)
